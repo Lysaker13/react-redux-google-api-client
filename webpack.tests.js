@@ -1,2 +1,2 @@
-var context = require.context('./src/', true, /-test\.ts$/);
+var context = require.context('./__tests__/', true, /-test\.ts$/);
 context.keys().forEach(context);

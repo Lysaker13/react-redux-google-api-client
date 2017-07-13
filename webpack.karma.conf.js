@@ -12,7 +12,7 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.ts'],
             alias: {
-            googleApiClient: path.resolve(__dirname, 'src/react-redux-google-api-client'),
+            googleApiClient: path.resolve(__dirname, 'src/'),
         }
     },
 };

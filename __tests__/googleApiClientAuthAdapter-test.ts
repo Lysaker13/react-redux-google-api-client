@@ -1,4 +1,4 @@
-import GoogleApiClientAuthAdapter from '../googleApiClientAuthAdapter';
+import GoogleApiClientAuthAdapter from '../src/googleApiClientAuthAdapter';
 var assert = require('assert');
 var sinon = require('sinon');
 

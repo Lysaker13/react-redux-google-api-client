@@ -1,4 +1,4 @@
-import GoogleApiClientSheetAdapter from '../GoogleApiClientSheetAdapter';
+import GoogleApiClientSheetAdapter from '../src/GoogleApiClientSheetAdapter';
 import configStub from './googleApi.conf.stub-test';
 
 var assert = require('assert');

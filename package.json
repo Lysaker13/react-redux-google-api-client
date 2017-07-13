@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/alicoding/react-webpack-babel.git"
   },
-  "author": "Ali Al Dallal",
+  "author": "Andriy Blyschik",
   "license": "MIT",
   "dependencies": {
     "classnames": "^2.1.5",

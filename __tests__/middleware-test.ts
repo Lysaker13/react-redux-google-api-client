@@ -1,6 +1,6 @@
-import {googleApiClient} from '../googleApiClient';
-import {CLIENT_API_INIT_START, CLIENT_API_INIT_ERROR} from '../actions/init';
-import googleApiClientMiddleware from '../middleware';
+import {googleApiClient} from '../src/googleApiClient';
+import {CLIENT_API_INIT_START, CLIENT_API_INIT_ERROR} from '../src/actions/init';
+import {googleApiClientMiddleware} from '../src/middleware';
 
 var assert = require('assert');
 var sinon = require('sinon');
@@ -19,13 +19,5 @@ describe('Google API client libraries middleware', function() {
     const nextHandler:any  = googleApiClientMiddleware({dispatch: doDispatch, getState: doGetState});
 
     describe('Should handle action', () => {
-        const actionHandler: any = nextHandler();
-
-        it('Should call "Google API client libraries" "values.get" method with settings arguments', function () {
-            actionHandler({
-                type: CLIENT_API_INIT_START,
-                payload: []
-            })
-        });
     });
 });
