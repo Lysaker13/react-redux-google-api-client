@@ -1,7 +1,7 @@
 {
-  "name": "react-webpack-babel",
-  "version": "0.0.3",
-  "description": "React Redux Webpack Babel Typescript Immutable Material-UI",
+  "name": "react-redux-google-api-client",
+  "version": "0.0.1",
+  "description": "React Redux Webpack Babel Typescript Immutable",
   "main": "''",
   "scripts": {
     "tests": "./node_modules/.bin/karma start",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alicoding/react-webpack-babel.git"
+    "url": "git+https://github.com/Lysaker13/react-redux-google-api-client.git"
   },
   "author": "Andriy Blyschik",
   "license": "MIT",
@@ -27,7 +27,6 @@
     "rxjs": "^5.3.0"
   },
   "devDependencies": {
-    "@types/chai": "^4.0.0",
     "@types/gapi": "0.0.31",
     "@types/gapi.auth2": "0.0.39",
     "@types/mocha": "^2.2.41",
@@ -70,20 +69,11 @@
     "tslint-loader": "^3.5.3",
     "tslint-react": "^3.0.0",
     "typedoc": "^0.7.1",
-    "typedoc-webpack-plugin": "^1.1.4",
     "typescript": "^2.2.2",
-    "typings": "^2.1.1",
     "url-loader": "0.5.7",
     "webpack": "^2.2.1",
-    "webpack-cleanup-plugin": "^0.4.2",
-    "webpack-dashboard": "^0.3.0",
-    "webpack-dev-server": "^2.4.1"
+    "typedoc-webpack-plugin": "^1.1.4",
+    "webpack-cleanup-plugin": "^0.4.2"
   },
-  "bugs": {
-    "url": "https://github.com/alicoding/react-webpack-babel/issues"
-  },
-  "homepage": "https://github.com/alicoding/react-webpack-babel#readme",
-  "directories": {
-    "doc": "docs"
-  }
+  "homepage": "https://github.com/Lysaker13/react-redux-google-api-client#readme"
 }
