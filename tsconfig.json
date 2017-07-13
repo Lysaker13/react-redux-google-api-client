@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "module": "es6",
+    "target": "es6",
+    "jsx": "react"
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "baseUrl": "types",
+  "typeRoots": ["types"],
+  "types": [
+    "gapi",
+    "gapi.auth2",
+    "immutable",
+    "react-redux"
+  ]
+}

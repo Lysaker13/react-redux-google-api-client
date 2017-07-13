@@ -1,0 +1,9 @@
+{
+  "extends": "tslint:recommended",
+  "no-console": false,
+  "variable-name": {
+    options: [
+      "ban-keywords"
+    ]
+  }
+}
